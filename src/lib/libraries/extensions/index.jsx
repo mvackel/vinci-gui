@@ -56,7 +56,7 @@ export default [
     {
         name: 'Vinci',
         extensionId: 'vinci',
-        collaborator: 'MAckel',
+        collaborator: 'MAckel Marcos',
         iconURL: vinciIconURL, 
         insetIconURL: vinciInsetIconURL,
         description: (
