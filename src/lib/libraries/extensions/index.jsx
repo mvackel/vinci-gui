@@ -56,12 +56,12 @@ export default [
     {
         name: 'Vinci',
         extensionId: 'vinci',
-        collaborator: 'MAckel Marcos',
+        collaborator: 'MAckel',
         iconURL: vinciIconURL, 
         insetIconURL: vinciInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Vinci - Programando robots -"
+                defaultMessage="Vinci - Programando robots"
                 description="Vinci é um robô programável por um painel ou pelo Scratch"
                 id="gui.extension.vinci.description"
             />
