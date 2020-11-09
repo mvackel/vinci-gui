@@ -2946,6 +2946,11 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
+dompurify@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.1.1.tgz#b5aa988676b093a9c836d8b855680a8598af25fe"
+  integrity sha512-NijiNVkS/OL8mdQL1hUbCD6uty/cgFpmNiuFxrmJ5YPH2cXrPKIewoixoji56rbZ6XBPmtM8GA8/sf9unlSuwg==
+
 domutils@1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
@@ -7724,14 +7729,6 @@ react-draggable@3.0.5:
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-react-ga@2.5.3:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.5.3.tgz#0f447c73664c069a5fc341f6f431262e3d4c23c4"
-  integrity sha512-25wvPv1PVLDLhw1gEYP33h0V2sJHahKMfUCAxhq8JPYmNQwx1fcjJAkJk+WmSqGN93lHLhExDkxy3SQizQnx3A==
-  optionalDependencies:
-    prop-types "^15.6.0"
-    react "^15.6.2 || ^16.0"
-
 react-intl@2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-2.9.0.tgz#c97c5d17d4718f1575fdbd5a769f96018a3b1843"
@@ -7857,15 +7854,6 @@ react@16.2.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
-
-"react@^15.6.2 || ^16.0":
-  version "16.10.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.10.1.tgz#967c1e71a2767dfa699e6ba702a00483e3b0573f"
-  integrity sha512-2bisHwMhxQ3XQz4LiJJwG3360pY965pTl/MRrZYxIBKVj4fOHoDs5aZAkYXGxDRO1Li+SyjTAilQEbOmtQJHzA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -8419,6 +8407,13 @@ scratch-render-fonts@1.0.0-prerelease.20180906193204:
   dependencies:
     base64-loader "1.0.0"
 
+scratch-render-fonts@1.0.0-prerelease.20200507182347:
+  version "1.0.0-prerelease.20200507182347"
+  resolved "https://registry.yarnpkg.com/scratch-render-fonts/-/scratch-render-fonts-1.0.0-prerelease.20200507182347.tgz#a4d67bdc0c2b05b56b159df350a1ba3803dc0e80"
+  integrity sha512-tVt2s7lxsBhme9WKIZTnluMerdJVGEc80QSrDdIIzUvHXGCIYkLh6j7ytwXcyq2UsA34d93op9+I9Bh1SPkQkA==
+  dependencies:
+    base64-loader "1.0.0"
+
 scratch-render@0.1.0-prerelease.20190912174749:
   version "0.1.0-prerelease.20190912174749"
   resolved "https://registry.yarnpkg.com/scratch-render/-/scratch-render-0.1.0-prerelease.20190912174749.tgz#fd76dc0d6f0a58c2737ebcff87ba3f739607b7b8"
@@ -8466,6 +8461,18 @@ scratch-svg-renderer@0.2.0-prerelease.20190822202608:
     minilog "3.1.0"
     scratch-render-fonts "1.0.0-prerelease.20180906193204"
     transformation-matrix "1.14.1"
+
+scratch-svg-renderer@0.2.0-prerelease.20201019174008:
+  version "0.2.0-prerelease.20201019174008"
+  resolved "https://registry.yarnpkg.com/scratch-svg-renderer/-/scratch-svg-renderer-0.2.0-prerelease.20201019174008.tgz#d99b9500b9cf11f84cda38133ead7fbd4a57228e"
+  integrity sha512-RF3Zx09Nl+uLTrPD7K4tR6Sqq/JqRTsLVRugohEJ8pGHXshvBh/A4zWx7XmMZHOdEDHunPxpCDHkW2LoMCFioQ==
+  dependencies:
+    base64-js "1.2.1"
+    base64-loader "1.0.0"
+    dompurify "2.1.1"
+    minilog "3.1.0"
+    scratch-render-fonts "1.0.0-prerelease.20200507182347"
+    transformation-matrix "1.15.0"
 
 scratch-translate-extension-languages@0.0.20190416132834:
   version "0.0.20190416132834"
@@ -9422,6 +9429,11 @@ transformation-matrix@1.14.1:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/transformation-matrix/-/transformation-matrix-1.14.1.tgz#28be6a49bc2697665615813fb22e83bc8157d45b"
   integrity sha512-zbfndGg//cMW4aytXuF4dkBuUu/SUBA94U2zkmDoRwcplS9hCCn/S3VDp4A7CXw5tVxeCm9F6zdfHzWzei6nXg==
+
+transformation-matrix@1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/transformation-matrix/-/transformation-matrix-1.15.0.tgz#0c7b42532ee456b87b4a0cdea5ee256ad8dda3bb"
+  integrity sha512-808EqPQbmUD6/IMpWUXLOZcblCHf9xaiB+un0RYNNE9+6VRjoiw6Be8R32tZ0ips1PX/15tlnA2Ev4UUgg827Q==
 
 transifex@1.6.6:
   version "1.6.6"
